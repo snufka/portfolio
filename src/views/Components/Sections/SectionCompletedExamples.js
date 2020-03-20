@@ -18,7 +18,7 @@ export default function SectionCompletedExamples() {
       <div className={classes.container}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Completed with examples</h2>
+            <h2>Thanks for Stoping by</h2>
             <h4>
               The kit comes with three pre-built pages to help you get started
               faster. You can change the text and images and you{"'"}re good to
