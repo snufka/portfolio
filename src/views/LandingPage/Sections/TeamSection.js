@@ -16,8 +16,6 @@ import CardBody from "components/Card/CardBody.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress.js";
-
-
 import team1 from "assets/img/faces/marina.jpeg";
 //import team2 from "assets/img/faces/christian.jpg";
 //import team3 from "assets/img/faces/kendall.jpg";
@@ -56,10 +54,10 @@ export default function TeamSection() {
             </Card>
           </GridItem>
         </GridContainer>
-        <div className={classes.space70} />
+        <div />
         <div id="progress">
           <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={8}>
+            <GridItem xs={12} sm={12} md={10}>
               <div className={classes.title}>
                 <h3>My Skill Set</h3>
               </div>
