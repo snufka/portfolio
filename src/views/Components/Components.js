@@ -25,16 +25,20 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 //import SectionCarousel from "./Sections/SectionCarousel.js";
 import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import WorkSection from "views/LandingPage/Sections/WorkSection.js";
+import TeamSection from "views/LandingPage/Sections/TeamSection.js"
 //import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 //import SectionDownload from "./Sections/SectionDownload.js";
+//import profile from "assets/img/faces/christian.jpg";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
 
+
 export default function Components(props) {
   const classes = useStyles();
+
   const { ...rest } = props;
   return (
     <div>
@@ -66,6 +70,7 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionCompletedExamples />
+        <TeamSection />
         <SectionExamples />
         <WorkSection />
       </div>
