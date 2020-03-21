@@ -61,36 +61,57 @@ export default function TeamSection() {
               <div className={classes.title}>
                 <h3>My Skill Set</h3>
               </div>
+              <div>
+                <p style={{ textAlign: 'justify' }}>React</p>
+              </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
                 value={65}
               />
+              <div>
+                <p style={{ textAlign: 'justify' }}>JavaScript</p>
+              </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
                 value={73}
               />
+              <div>
+                <p style={{ textAlign: 'justify' }}>Node.js</p>
+              </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
                 value={70}
               />
+              <div>
+                <p style={{ textAlign: 'justify' }}>MySQL</p>
+              </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
                 value={81}
               />
+              <div>
+                <p style={{ textAlign: 'justify' }}>HTML</p>
+              </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
                 value={60}
               />
+              <div>
+                <p style={{ textAlign: 'justify' }}>CSS</p>
+              </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
                 value={73}
               />
+              <div>
+                <p style={{ textAlign: 'justify' }}>MongoDB</p>
+              </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
