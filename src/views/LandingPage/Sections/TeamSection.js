@@ -48,7 +48,7 @@ export default function TeamSection() {
         <div />
         <div id="progress">
           <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={10}>
+            <GridItem xs={12} sm={12} md={8}>
               <div className={classes.title}>
                 <h3>My Skill Set</h3>
               </div>
