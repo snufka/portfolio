@@ -10,8 +10,11 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
+//import landing from "assets/img/landing.jpg";
+//import profile from "assets/img/profile.jpg";
+import ecom from "assets/img/ecom.jpg";
+import herstory from "assets/img/herstory.PNG";
+import lastmin from "assets/img/lastmin.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
@@ -22,11 +25,14 @@ export default function SectionExamples() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
+        <div>
+          <h3>Some Projects I Have Been Working On</h3>
+        </div>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={5}>
             <Link to="landing-page" className={classes.link}>
               <img
-                src={landing}
+                src={ecom}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -37,14 +43,14 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View landing page
+                View Ecommers Website builed with Node & MongoDB
               </Button>
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={5}>
             <Link to="profile-page" className={classes.link}>
               <img
-                src={profile}
+                src={lastmin}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -55,14 +61,14 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View profile page
+                View Last Minute Trip
               </Button>
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={5}>
             <Link to="profile-page" className={classes.link}>
               <img
-                src={profile}
+                src={herstory}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -73,7 +79,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View profile page
+                View Her Story Progressive Web App
               </Button>
             </Link>
           </GridItem>

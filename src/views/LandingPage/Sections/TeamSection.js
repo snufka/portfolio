@@ -11,7 +11,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 //import Button from "components/CustomButtons/Button.js";
 import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
+//import CardBody from "components/Card/CardBody.js";
 //import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
@@ -42,15 +42,6 @@ export default function TeamSection() {
               <small className={classes.smallTitle}>
                 Marina, Full Stack Web Developer
               </small>
-
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
             </Card>
           </GridItem>
         </GridContainer>
