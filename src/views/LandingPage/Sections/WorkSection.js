@@ -19,7 +19,7 @@ export default function WorkSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem cs={12} sm={12} md={8}>
+        <GridItem cs={12} sm={12} md={8} style={{ width: '85%' }}>
           <h2 className={classes.title}>Let{"'"}s Stay in Touch</h2>
           <h4 className={classes.description}>
             Would love to hear your tought and feedback. Do not hesitated to ping me.
