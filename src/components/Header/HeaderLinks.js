@@ -67,7 +67,6 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
-
     </List>
   );
 }
