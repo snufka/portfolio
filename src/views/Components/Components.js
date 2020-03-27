@@ -25,7 +25,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 //import SectionCarousel from "./Sections/SectionCarousel.js";
 import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import WorkSection from "views/LandingPage/Sections/WorkSection.js";
-import TeamSection from "views/LandingPage/Sections/TeamSection.js"
+import TeamSection from "views/LandingPage/Sections/TeamSection.js";
 //import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 //import SectionDownload from "./Sections/SectionDownload.js";
