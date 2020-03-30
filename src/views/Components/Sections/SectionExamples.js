@@ -43,7 +43,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                Ecommerce Website builed w/ Node & MongoDB
+                Ecommerce Website
               </Button>
             </a>
           </GridItem>
