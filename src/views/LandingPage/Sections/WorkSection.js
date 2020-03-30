@@ -7,7 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import CustomInput from "components/CustomInput/CustomInput.js";
+//import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
@@ -25,46 +25,14 @@ export default function WorkSection() {
             Would love to hear your thoughts and feedback. Do not hesitated to ping me.
           </h4>
           <form>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Your Name"
-                  id="name"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
+            <GridContainer justify="center">
+              <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
+                <Button color="primary" onclick="mailto:mariname86@gmail.com?subject=I came a cross your website" target="_blank" rel="noopener noreferrer"> Send Message </Button>
               </GridItem>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Your Email"
-                  id="email"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <CustomInput
-                labelText="Your Message"
-                id="message"
-                formControlProps={{
-                  fullWidth: true,
-                  className: classes.textArea
-                }}
-                inputProps={{
-                  multiline: true,
-                  rows: 5
-                }}
-              />
-              <GridContainer justify="center">
-                <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                  <Button color="primary">Send Message</Button>
-                </GridItem>
-              </GridContainer>
             </GridContainer>
           </form>
         </GridItem>
       </GridContainer>
-    </div>
+    </div >
   );
 }
