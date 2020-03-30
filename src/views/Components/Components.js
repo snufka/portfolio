@@ -60,7 +60,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Hello, I{"'"}m Marina.</h1>
                 <h3 className={classes.subtitle}>
-                  And I am a Fullstack web developer at the begining of her journy.
+                  And I am a Fullstack web developer at the begining of her journey.
                 </h3>
               </div>
             </GridItem>
