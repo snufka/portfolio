@@ -13,6 +13,7 @@ import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
 
 const useStyles = makeStyles(styles);
+//const emailLink = "mailto:mariname86@gmail.com?subject=I came a cross your website";
 
 export default function WorkSection() {
   const classes = useStyles();
@@ -27,7 +28,7 @@ export default function WorkSection() {
           <form>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="primary" onclick="mailto:mariname86@gmail.com?subject=I came a cross your website" target="_blank" rel="noopener noreferrer"> Send Message </Button>
+                <Button color="info"><a href="mailto:mariname86@gmail.com?subject=I came a cross your website" target="_blank" rel="noopener noreferrer"> Send Message </a></Button>
               </GridItem>
             </GridContainer>
           </form>

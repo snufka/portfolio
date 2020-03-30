@@ -278,7 +278,8 @@ const buttonStyle = {
     "&,&:hover,&:focus": {
       backgroundColor: "transparent",
       color: "#999999",
-      boxShadow: "none"
+      boxShadow: "none",
+      textcolor: "white"
     }
   },
   justIcon: {
