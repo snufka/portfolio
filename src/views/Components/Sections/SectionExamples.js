@@ -1,6 +1,6 @@
 import React from "react";
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
@@ -30,7 +30,7 @@ export default function SectionExamples() {
         </div>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={5}>
-            <Link to="landing-page" className={classes.link}>
+            <a href="https://github.com/snufka/E_Commerce" className={classes.link}>
               <img
                 src={ecom}
                 alt="..."
@@ -43,12 +43,12 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View Ecommers Website builed with Node & MongoDB
+                Ecommerce Website builed w/ Node & MongoDB
               </Button>
-            </Link>
+            </a>
           </GridItem>
           <GridItem xs={12} sm={12} md={5}>
-            <Link to="profile-page" className={classes.link}>
+            <a href="https://snufka.github.io/LastMinuteTrip/" className={classes.link}>
               <img
                 src={lastmin}
                 alt="..."
@@ -61,12 +61,12 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View Last Minute Trip
+                Last Minute Trip
               </Button>
-            </Link>
+            </a>
           </GridItem>
           <GridItem xs={12} sm={12} md={5}>
-            <Link to="profile-page" className={classes.link}>
+            <a href="https://herstory.netlify.com/" className={classes.link}>
               <img
                 src={herstory}
                 alt="..."
@@ -79,9 +79,9 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View Her Story Progressive Web App
+                Her Story Progressive Web App
               </Button>
-            </Link>
+            </a>
           </GridItem>
         </GridContainer>
       </div>
