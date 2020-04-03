@@ -53,12 +53,12 @@ export default function TeamSection() {
                 <h3>My Skill Set</h3>
               </div>
               <div>
-                <p style={{ textAlign: 'justify' }}>React</p>
+                <p style={{ textAlign: 'justify' }}>React.js</p>
               </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
-                value={65}
+                value={75}
               />
               <div>
                 <p style={{ textAlign: 'justify' }}>JavaScript</p>
@@ -66,7 +66,7 @@ export default function TeamSection() {
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
-                value={73}
+                value={82}
               />
               <div>
                 <p style={{ textAlign: 'justify' }}>Node.js</p>
@@ -74,7 +74,7 @@ export default function TeamSection() {
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
-                value={70}
+                value={66}
               />
               <div>
                 <p style={{ textAlign: 'justify' }}>MySQL</p>
@@ -90,7 +90,7 @@ export default function TeamSection() {
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
-                value={60}
+                value={78}
               />
               <div>
                 <p style={{ textAlign: 'justify' }}>CSS</p>
@@ -107,6 +107,14 @@ export default function TeamSection() {
                 variant="determinate"
                 color="info"
                 value={66}
+              />
+              <div>
+                <p style={{ textAlign: 'justify' }}>Web API</p>
+              </div>
+              <CustomLinearProgress
+                variant="determinate"
+                color="info"
+                value={77}
               />
             </GridItem>
           </GridContainer>
