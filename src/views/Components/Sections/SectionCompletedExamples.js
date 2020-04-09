@@ -21,7 +21,7 @@ export default function SectionCompletedExamples() {
       <div className={classes.container}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Thank You for Stoping by</h2>
+            <h2>Thank You for Stopping by</h2>
             <h4>
               My name is Marina Mitrashov and I am a Web Developer with a background
               in Digital Marketing and SEO.
