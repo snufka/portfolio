@@ -77,6 +77,14 @@ export default function TeamSection() {
                 value={66}
               />
               <div>
+                <p style={{ textAlign: 'justify' }}>GraphQL</p>
+              </div>
+              <CustomLinearProgress
+                variant="determinate"
+                color="info"
+                value={71}
+              />
+              <div>
                 <p style={{ textAlign: 'justify' }}>MySQL</p>
               </div>
               <CustomLinearProgress
