@@ -29,7 +29,7 @@ export default function WorkSection() {
           <form>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="info" ><a href="mailto:mariname86@gmail.com?subject=I came a cross your website mariname.tech" target="_blank" rel="noopener noreferrer" style={buttonText}> send message </a></Button>
+                <Button color="info"><a href="mailto:mariname86@gmail.com?subject=I came a cross your website mariname.tech" target="_blank" rel="noopener noreferrer" style={buttonText}>Send Message</a></Button>
               </GridItem>
             </GridContainer>
           </form>
