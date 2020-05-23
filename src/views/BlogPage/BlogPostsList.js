@@ -59,13 +59,7 @@ export default function BlogPostsList(props) {
                     <div className={classes.container}>
                         <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={8}>
-                                <h2>Thank You for Stopping by</h2>
-                                <h4>
-                                    My name is Marina Mitrashov and I am a Web Developer with a background
-                                    in Digital Marketing and SEO.
-                                    Recognized as proactive, resourceful, and persistent problem-solver.
-                                    Excellent communicator with effective client relationship building skills.
-                                    Graduate of Full Stack Development through ESMT Berlin.</h4>
+                                <h2>some posts</h2>
                             </GridItem>
                         </GridContainer>
                     </div>
