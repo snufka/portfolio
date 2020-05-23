@@ -23,12 +23,7 @@ const useStyles = makeStyles(styles);
 export default function BlogPostsList(props) {
     const classes = useStyles();
     const { ...rest } = props;
-    /*const imageClasses = classNames(
-          classes.imgRaised,
-          classes.imgRoundedCircle,
-          classes.imgFluid
-      );*/
-    //const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
+
     return (
         <div>
             <Header
