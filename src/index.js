@@ -13,12 +13,14 @@ import Components from "views/Components/Components.js";
 import SectionCompletedExamples from "views/Components/Sections/SectionCompletedExamples.js";
 import WorkSection from "views/LandingPage/Sections/WorkSection.js";
 import TeamSection from "views/LandingPage/Sections/TeamSection.js";
+import BlogPostsList from "views/BlogPage/BlogPostsList.js";
 
 var hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
+      <Route path="/blog" component={BlogPostsList} />
       <Route path="/about" component={SectionCompletedExamples} />
       <Route path="/contact" component={WorkSection} />
       <Route path="/skills" component={TeamSection} />
