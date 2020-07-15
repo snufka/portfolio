@@ -1,4 +1,4 @@
-# [Material Kit React](https://demos.creative-tim.com/material-kit-react)
+# [Material Kit React]
 Deployed at https://www.mariname.tech/   
 
 
