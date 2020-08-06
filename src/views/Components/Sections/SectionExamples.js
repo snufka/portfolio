@@ -15,6 +15,7 @@ import Button from "components/CustomButtons/Button.js";
 import ecom from "assets/img/ecom.jpg";
 import herstory from "assets/img/herstory.PNG";
 import lastmin from "assets/img/lastmin.jpg";
+import st from "assets/img/st.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
@@ -30,7 +31,10 @@ export default function SectionExamples() {
         </div>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={5}>
-            <a href="https://github.com/snufka/E_Commerce" className={classes.link}>
+            <a
+              href="https://github.com/snufka/E_Commerce"
+              className={classes.link}
+            >
               <img
                 src={ecom}
                 alt="..."
@@ -48,7 +52,10 @@ export default function SectionExamples() {
             </a>
           </GridItem>
           <GridItem xs={12} sm={12} md={5}>
-            <a href="https://snufka.github.io/LastMinuteTrip/" className={classes.link}>
+            <a
+              href="https://snufka.github.io/LastMinuteTrip/"
+              className={classes.link}
+            >
               <img
                 src={lastmin}
                 alt="..."
@@ -80,6 +87,27 @@ export default function SectionExamples() {
               />
               <Button color="primary" size="lg" simple>
                 Her Story Progressive Web App
+              </Button>
+            </a>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={5}>
+            <a
+              href="https://stieg-larsson-fan-website.netlify.app/"
+              className={classes.link}
+            >
+              <img
+                src={st}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+              <Button color="primary" size="lg" simple>
+                React.js Website for Stieg Larsson
               </Button>
             </a>
           </GridItem>
