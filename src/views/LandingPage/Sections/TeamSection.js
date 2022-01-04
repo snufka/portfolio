@@ -53,12 +53,12 @@ export default function TeamSection() {
                 <h3>My Skill Set</h3>
               </div>
               <div>
-                <p style={{ textAlign: 'justify' }}>React.js</p>
+                <p style={{ textAlign: 'justify' }}>Web API</p>
               </div>
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
-                value={75}
+                value={90}
               />
               <div>
                 <p style={{ textAlign: 'justify' }}>JavaScript</p>
@@ -77,14 +77,6 @@ export default function TeamSection() {
                 value={66}
               />
               <div>
-                <p style={{ textAlign: 'justify' }}>GraphQL</p>
-              </div>
-              <CustomLinearProgress
-                variant="determinate"
-                color="info"
-                value={71}
-              />
-              <div>
                 <p style={{ textAlign: 'justify' }}>MySQL</p>
               </div>
               <CustomLinearProgress
@@ -98,7 +90,7 @@ export default function TeamSection() {
               <CustomLinearProgress
                 variant="determinate"
                 color="info"
-                value={78}
+                value={92}
               />
               <div>
                 <p style={{ textAlign: 'justify' }}>CSS</p>
@@ -109,15 +101,7 @@ export default function TeamSection() {
                 value={73}
               />
               <div>
-                <p style={{ textAlign: 'justify' }}>MongoDB</p>
-              </div>
-              <CustomLinearProgress
-                variant="determinate"
-                color="info"
-                value={66}
-              />
-              <div>
-                <p style={{ textAlign: 'justify' }}>Web API</p>
+                <p style={{ textAlign: 'justify' }}>React.js</p>
               </div>
               <CustomLinearProgress
                 variant="determinate"
